@@ -1,0 +1,450 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.body {
+    font-family: "selected", san;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0px 0px 0px;
+}
+
+.pageMenu {
+    padding: 20px 0px 20px 0px;
+    background-color: blueviolet;
+    margin-bottom: 30px;
+}
+
+.header-men {
+    color: blueviolet;
+}
+
+.header-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-item-link {
+
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.header-item-link:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+.header-item-link.active {
+    background-color: white;
+    color: blueviolet;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 4px 12px 0px black;
+    background-color: white;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+.header-link:hover{
+    transform: scale(0.9);
+    transition: 1s;
+}
+.header-stel {
+    text-align: center;
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.header-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+.header-bold {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.props-box:hover {
+   transform: scale(1.4)
+}
+
+.header-input {
+    padding: 9px 40px 9px 40px;
+    border-radius: 10px;
+}
+
+.header-btn {
+    text-align: center;
+
+}
+
+.header-button1 {
+    padding: 10px 30px 10px 30px;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.header-wrap1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 50px;
+}
+
+.header-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    margin-right: 130px;
+}
+
+.header-link {
+    font-size: 25px;
+    color: rgb(50, 43, 58);
+    padding: 15px;
+}
+
+.header-link:hover {
+    background-color: blueviolet;
+}
+
+.active {
+    background-color: blueviolet;
+}
+
+.header-link1 {
+    font-size: 25px;
+    background-color: blueviolet;
+    padding: 15px;
+}
+
+.header-link1:hover {
+    background-color: white;
+    color: white;
+}
+
+.header-button {
+    font-size: 25px;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header-name {
+    font-size: 25px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 30px;
+    border-radius: 0px;
+    border: 1px solid blueviolet;
+}
+
+.about-container {
+    margin-top: 100px;
+}
+
+.card-container {
+    margin-top: 100px;
+}
+
+.contact-container {
+    margin-top: 100px;
+}
+
+/* ------------------------------------Card--------------------- */
+.card-box {
+    padding-top: 50px;
+
+}
+
+.card-list {
+    padding: 15px 0px 15px 40px;
+    background-color: white;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 7%);
+
+    margin-bottom: 30px;
+}
+
+.card-item1 {
+    display: flex;
+    align-items: center;
+    gap: 340px;
+}
+
+.card-item2 {
+    display: flex;
+    align-items: center;
+    gap: 140px;
+}
+
+.card-title1 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.card-title {
+    font-size: 20px;
+    color: black;
+    line-height: 28px;
+}
+
+/* --------------------------about----------------- */
+.about-list {
+    margin-top: 150px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 7%);
+    margin-bottom: 40px;
+}
+
+.about-img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    /* padding: 30px; */
+}
+
+.about-title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    color: #000;
+
+}
+
+.about-text {
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 1020px;
+}
+
+/* -------------------------------contact----------------------- */
+
+.contact-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.contact-box {
+    margin-top: 150px;
+}
+
+.contact-list {
+    background-color: #fff;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 7%);
+    padding: 30px;
+    margin-bottom: 30px;
+
+}
+
+.contact-name {
+    background-color: #fff;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 7%);
+    padding: 10px 30px 20px 30px;
+    margin-bottom: 30px;
+}
+
+.contact-list2 {
+    background-color: #fff;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 7%);
+    padding: 10px 30px 20px 30px;
+    margin-bottom: 30px;
+}
+
+.contact-title {
+    color: #000;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.contact-span {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.contact-strong {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.contact-text1 {
+    font-size: 20px;
+    color: blue;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* --------------------------props------------------ */
+.props-list {
+    width: 230px;
+    height: 340px;
+    background-color: white;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 20%);
+    padding: 20px;
+}
+.props-list:hover{
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.props-bold {
+    display: flex;
+    align-items: center;
+}
+
+.props-title {
+    font-size: 20px;
+    height: 40px;
+}
+
+.props-img1 {
+    width: 230px;
+    height: 150px;
+}
+
+.props-text {
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(78, 78, 78);
+}
+
+.props-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.props-button {
+    padding: 11px 14px 11px 14px;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+}
+
+.props-button:hover {
+    background-color: #fff;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+
+/*---------------------------------------footer */
+.footer {
+    background-color: blueviolet;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.footer-bootom {
+    padding-bottom: 40px;
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer-list {
+    padding-bottom: 130px;
+    color: #fff;
+}
+
+.footer-list1 {
+    padding-bottom: 145px;
+    color: #fff;
+}
+
+.footer-name {
+    padding-top: 20px;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+
+    color: #fff;
+    padding-top: 30px;
+}
+
+.footer-link1 {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.footer-text {
+    font-size: 30px;
+}
+
+.footer-botttom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-text1 {
+    color: #fff;
+}
+
+.footer-link2 {
+    color: #fff;
+}
+
+.footer-img {
+    background-color: white;
+}
+
+.footer-bold {
+
+    text-align: center;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-svg {
+    border: 1px solid white;
+    padding: 10px;
+
+}
