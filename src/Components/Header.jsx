@@ -78,7 +78,7 @@ const Header = () => {
                     <NavLink className='header-link' active to="/contact">{t('header3')}</NavLink>
                 </div>
                 <div className='select'>
-                <select name="language" onChange={changeLanguage} value={i18n.language} style={{marginRight: "15px"}} >
+                <select name="language" onChange={changeLanguage} value={i18n.language} style={{marginRight: "9px"}} >
                     <option value="uz">Uzbek</option>
                     <option value="eng">English</option>
                   </select>
@@ -87,7 +87,7 @@ const Header = () => {
                 <Button onClick={() => setIsKorzinkaOpen(true)}>
                     <img src={korzinka} alt="" />
                 </Button>
-                <Modal title="Basic Modal1" open={isKorzinkaOpen} onOk={() => setIsKorzinkaOpen(false)} onCancel={() => setIsKorzinkaOpen(false)}>
+                <Modal title="Basic Modal1" open={isKorzinkaOpen} onOk={() => setIsKorzinkaOpen(false)} onCancel={() => setIsKorzinkaOpen(false)} footer={""}>
                     <h1 className='header-men'>Hali siz buyurtma qilmadinggiz</h1>
 
                 </Modal>
@@ -100,7 +100,7 @@ const Header = () => {
                         <Button className='header-name' type="" onClick={showModal}>
                             Войти
                         </Button>
-                        <Modal  open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
+                        <Modal  open={isModalOpen} onOk={handleOk} onCancel={handleCancel} footer={""}>
                             <h1 className='header-stel'>Добро пожаловать</h1>
                             <p className='header-text'>Войдите с вашим номером телефона</p>
                             <div className='header-bold'>
@@ -121,11 +121,13 @@ const Header = () => {
                     <Button type="primary" onClick={showDrawer}>
         =
       </Button>
-      <Drawer title="Basic Drawer" onClose={onClose} open={open}>
-       <p>Главная</p>
-       <p>Филиалы</p>
-       <p>О нас</p>
-       <p>Контакты</p>
+      <Drawer  onClose={onClose} open={open}>
+           <div className='header-sle'>
+       <NavLink className='header-link' active to="/">Главная</NavLink>
+                    <NavLink className='header-link' active to="/card">Филиалы</NavLink>
+                    <NavLink className='header-link' active to="/about">О нас</NavLink>
+                    <NavLink className='header-link' active to="/contact">Контакты</NavLink>
+                    </div>
       </Drawer>
                 </div>
                 </div>
